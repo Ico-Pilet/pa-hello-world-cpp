@@ -7,4 +7,5 @@ cleanWs()
 checkout scm
 sh "make"
 sh "./main"
+archiveArtifacts artifacts: 'main'
 }
